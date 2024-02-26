@@ -142,6 +142,15 @@ background-color: var(--dark-mode   );
     font-weight: 700;
     color: white;
 }
+.navbar-toggler {
+  padding: 0px;
+  font-size: 2rem;
+  color: var(--white);
+}
+.navbar-toggler-icon{
+  width: unset;
+  height: unset;
+}
 /* section 1 */
 .section-1{
     background-image: url(../img/bg2.jpg);
@@ -152,7 +161,7 @@ background-color: var(--dark-mode   );
 .section-1 .section-text h2 span{
     font-weight: 900;
     color: var(--white);
-    font-size: 50px;
+    font-size: 42px;
 }
 .section-1 .section-text p{
     font-size: 25px;
