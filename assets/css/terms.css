@@ -1,0 +1,31 @@
+:root{
+    --m-blue: #0053a4;
+    --white:#fff;
+    --dark-mode:#0e1725;
+    --font-family:'Times New Roman', Times, serif;
+  --fnt: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    --testicon: #0E1725;
+    --txtblue: rgb(0,83,164);
+}
+body{
+background-color: var(--m-blue);
+}
+.terms-sec-2{
+  background-color: var(--white);
+  font-family: var(--fnt);
+  font-weight: 400;
+}
+.dark-mode .terms-sec-2{
+  background-color: var(--dark-mode);
+  color: var(--white);
+}
+.dark-mode .base--color3{
+  color: var(--white);
+}
+.base--color3 {
+  color: var(--txtblue);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.updated{
+  font-weight: 500;
+}

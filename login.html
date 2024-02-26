@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo-small.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/plugins/bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/faq.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsiveness.css">
+    <link rel="stylesheet" href="./assets/plugins/aos/aos.css">
+    <link rel="stylesheet" href="./assets/plugins/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/plugins/carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugins/carousel/css/owl.theme.default.min.css">
+    <title>Bix Vested Stocks | Login</title>
+</head>
+<body> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbag py-3 fixed-top border-bottom-light">
+            <div class="container-fluid px-0">
+              <button class="navbar-toggler custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                  <li class="nav-item">
+                    <a class="nav-link navlink" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navlink" href="./Aboutus.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navlink" href="FAQ.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navlink" href="terms.html">Terms</a>
+                  </li>
+                </ul>
+                <div class="logs-area">
+                    <a class="btn btn-primary general-btn" href="./Register.html" role="button">Sign-up</a>
+                </div>  
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class=" login-sec">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-white">
+                    <div class="row px-3">
+                        <div class="col-lg-6">
+                            <img src="./assets/img/logo-small.png" alt="" style="display: flex; width: 100%; margin: 0 auto;">
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <h3 class="text-center fnt">Sign-In</h3>
+                                <form method="post">
+                                    <div class="mb-3 fnt">
+                                      <label for="exampleInputEmail1" class="form-label fnt">Email address</label>
+                                      <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+                                    </div>
+                                    <div class="mb-3 fnt" style="position: relative;">
+                                      <label for="exampleInputPassword1" class="form-label fnt">Password</label>
+                                      <input type="password" class="form-control typepasss" id="exampleInputPassword1" placeholder="Enter password" name="password">
+                                      <div class="mt-2"> 
+                                      <small>
+                                           <a href="#" class="base--color2 fnt">Forgot Password?</a> 
+                                      </small>
+                                    </div>
+                                      <div class="password-eye">
+                                        <p class="bi-eye-fill icon2" onclick="Toggle(this)"></p>
+                                      </div>
+                                    </div>
+                                      <div class="my-4">
+                                          
+                                    <button type="submit" class="general-btn w-100">LOG-IN</button>
+                                </div>
+                                  </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <div style="margin-top: 79px;"></div>
+      <div class="darkmode-btn">
+        <button id="dark-mode-toggle" class="button" onclick="toggleDarkMode()">
+            <span class="bell">
+                <span class="bi-moon-stars-fill path"></span>
+            </span>
+         </button>
+      </div>
+<script src="./assets/plugins/carousel/js/jquery.2.3.1.min.js"></script>
+<script src="./assets/js/index.js"></script>
+<script src="./assets/plugins/bootstrap5/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/plugins/aos/aos.js"></script>
+<script src="./assets/plugins/carousel/js/app.js"></script>
+<script src="./assets/plugins/carousel/js/owl.carousel.min.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
